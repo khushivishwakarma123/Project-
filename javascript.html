@@ -1,0 +1,133 @@
+<html>
+<head>
+    
+    <title>Reducing Garbage</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+        }
+
+        .article-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #2980b9;
+            margin-top: 20px;
+        }
+img container{
+Width:200px;
+Height:200px;
+}
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+<header>
+        <h1>Breaking News: Major Event Unfolds</h1>
+        <p>Published on <time datetime="2024-12-18">December 18, 2024</time> by <a href="author_profile.html">John Doe</a></p>
+    </header>
+
+    <div class="article-container">
+        <h1 id="article-title">Reducing garbage </h1>
+
+        <div id="article-content">
+            <!-- Content will be inserted here by JavaScript -->
+        </div>
+
+
+<img src="https://www.shutterstock.com/image-photo/recycle-reduce-reuse-zero-waste-260nw-2482384725.jpg" width="300" height="300">
+      
+            <Footer>
+Garbage reduction 
+            </footer>
+    </div>
+
+    <script>
+        // Function to generate and insert the article content
+        function generateArticle() {
+            const articleContent = `
+<h2> 1.Global Waste Generation</h2><br>
+                
+<h3> Statistics </h3>
+
+ According to the World Bank, global waste generation has been rising rapidly. The world generates over 2.01 billion metric tons of municipal solid waste (MSW) annually, and this number is expected to grow to 3.4 billion metric tons by 2050.
+<h3> Waste Composition</h3> 
+Common types of waste include food waste, plastics, paper, metals, textiles, and hazardous materials.
+<h3>Waste by Region</h3>
+High-income countries generate more waste per capita than low-income countries. However, rapidly urbanizing economies, like in Asia and Africa, are seeing fast growth in waste generation.</p>
+
+<h2>2. Environmental and Social Impacts</h2>
+                <p>
+<h3>Landfills</h3
+Waste in landfills can take hundreds of years to decompose and emits harmful gases like methane, a potent greenhouse gas.
+<h3>Ocean Pollution</h3>
+Plastic waste, in particular, has become a major environmental issue. It is estimated that by 2050, there could be more plastic in the ocean than fish by weight.
+<h3>Resource Depletion</h3>
+The production of goods leads to the extraction of natural resources. Waste contributes to the depletion of those resources, which could be used more sustainably.
+<h3>Health Issues</h3>
+ Improper waste management can lead to contamination of water sources, spreading disease and causing health hazards, especially in developing countries.
+<h3>Climate Change</h3>
+The decomposition of organic waste in landfills produces methane, contributing significantly to global warming.</p>
+
+
+</p>
+
+                <h2> 3.Combat Food Waste</h2>
+<P>Food waste is a significant contributor to global waste. Approximately one-third of all food produced is wasted every year. Reducing food waste involves improving food storage, transportation, and consumer education on better portioning and using leftovers. Establishing systems to redistribute food that would otherwise go to waste can also reduce landfill volumes.</p>
+
+                <h2>4.Promote Recycling and Reuse</h2>
+<P>Recycling is one of the most effective ways to reduce waste. However, it requires better systems for collection, sorting, and processing recyclables. Governments can incentivize recycling programs by introducing deposit return schemes or providing financial incentives for companies and individuals to recycle. Additionally, product design needs to focus on making items easier to recycle and less harmful to the environment.</p>
+            `;
+
+            // Inject the article content into the HTML element with id="article-content"
+            document.getElementById("article-content").innerHTML = articleContent;
+        }
+
+        // Run the function to generate and display the article when the page loads
+        window.onload = generateArticle;
+    </script>
+
+            
+</body>
+</html>
